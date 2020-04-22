@@ -302,7 +302,7 @@ parameters:
 - description: Username of the replication account for initialization.
   displayName: Replication Username
   name: PATRONI_REPLICATION_USERNAME
-  value: postgres
+  value: standby
 - description: Password of the replication account for initialization.
   displayName: Repication Passsword
   name: PATRONI_REPLICATION_PASSWORD
